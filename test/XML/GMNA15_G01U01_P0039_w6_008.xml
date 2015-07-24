@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/imsqti_v2p1.xsd" toolName="GridInResponse" toolVersion="default">
+
+     <itemBody>
+         <div><p label="heading">
+             <span>
+             <![CDATA[Algebra - Add Zero]]>
+             </span>
+             </p>
+             <p label="instruct">
+                 <span>
+                 <![CDATA[<b>Solve.</b><br/>]]>
+                 </span>
+             </p>
+         </div>
+         <blockquote>
+         <p><![CDATA[
+Maya has 7 books.<br/>
+Maya gives 7 books to Eli.<br/>
+How many books does Maya have now?<br/>
+<textEntryInteraction responseIdentifier="RESPONSE" expectedLength="15"></textEntryInteraction> books]]></p>
+         </blockquote>
+     </itemBody>
+</assessmentItem>
