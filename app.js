@@ -41,7 +41,13 @@ fs.readdir(config.xmlDirectoryPath,function(error,xmlFiles){
                                         });
                                         result = _.difference(ids,xmlInteractionIds);
                                         if(result && result.length!=0){
-                                            console.log('File: '+fileName +' has missing interactionid lists' + result + '\n');
+                                            var log = 'File: '+fileName +' has missing interactionid lists' + result + '\n';
+                                            console.log(log);
+                                            fs.appendFile(config.log, log, function (err) {
+                                                if (err) {
+                                                    console.log(err);
+                                                }
+                                            });
                                         }
                                     }
                                     callback(null,'done');

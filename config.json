@@ -1,4 +1,5 @@
 {
     "xHtmlDirectoryPath":"./test/XHTML",
-    "xmlDirectoryPath":"./test/XML"
+    "xmlDirectoryPath":"./test/XML",
+    "log":"./test/report.txt"
 }
