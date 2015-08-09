@@ -1,8 +1,9 @@
-#Screenshot-tool
+#screenshot-tool
 
-##create screenshots of web pages from the command line
+##Create screenshots of web pages from the command line
 
 Want screenshots of your pages? There are couple of options
+
 1. `printscreen` (*lots of hassle*)
 2. `browser extensions` (*works but has to be done manually*)
 
